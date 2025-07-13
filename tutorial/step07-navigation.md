@@ -16,7 +16,7 @@ $ edit navigation.py
 We'll need to import the `PluginMenuItem` class provided by NetBox to add new menu items; do this at the top of the file.
 
 ```python
-from extras.plugins import PluginMenuItem
+from netbox.plugins import PluginMenuItem
 ```
 
 Next, we'll create a tuple named `menu_items`. This will hold our customized `PluginMenuItem` instances.
