@@ -59,7 +59,7 @@ While we're at it, we can add direct links to the "add" views for access lists a
 
 ```python
 from extras.plugins import PluginMenuButton, PluginMenuItem
-from utilities.choices import ButtonColorChoices
+from extras.choices import ButtonColorChoices
 ```
 
 `PluginMenuButton` is used similarly to `PluginMenuItem`: Instantiate it with the necessary keyword arguments to effect a menu button. These arguments are:
