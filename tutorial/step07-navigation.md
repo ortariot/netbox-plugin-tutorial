@@ -58,7 +58,7 @@ That's much more convenient!
 While we're at it, we can add direct links to the "add" views for access lists and rules as buttons. We'll need to import two additional classes at the top of `navigation.py`: `PluginMenuButton` and `ButtonColorChoices`.
 
 ```python
-from netbox.pluginsimport PluginMenuButton, PluginMenuItem
+from netbox.plugins import PluginMenuButton, PluginMenuItem
 from extras.choices import ButtonColorChoices
 ```
 
